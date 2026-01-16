@@ -70,9 +70,9 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
+    object-fit: contain;   /* ⭐ สำคัญ */
+    background-color: #fff; /* ช่วยให้โลโก้ดูชัด */
+    padding: 12px;
 }
 
 .service-card img:hover {
@@ -130,6 +130,7 @@ body {
 .top-right-logout button:hover {
     background-color: #b02a37;
 }
+
 
 
 
