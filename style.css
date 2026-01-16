@@ -68,7 +68,9 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: cover;   /* 👈 ตัวการ */
+    object-fit: contain;   /* ⭐ สำคัญ */
+    background-color: #fff; /* ช่วยให้โลโก้ดูชัด */
+    padding: 12px;
 }
 
 
@@ -150,6 +152,7 @@ body {
 
     font-size: 25px;
 }
+
 
 
 
