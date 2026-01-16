@@ -9,7 +9,7 @@ body {
     background-color: #ffffff;
 }
 .page-header-service {
-  background-image: url("images/bg-service.jpg");
+  background-image: url("bg-service.jpg");
   background-size: cover;
     background-position: center;
     height: 320px;
@@ -31,7 +31,7 @@ body {
 
 /* รูปหย่าย */
 .hero {
-    background-image: url("images/bg-complaint.jpg"); /* 👈 เปลี่ยนตรงนี้ */
+    background-image: url("bg-complaint.jpg"); /* 👈 เปลี่ยนตรงนี้ */
     background-size: cover;
     background-position: center;
     height: 320px; /* ปรับความสูงได้ */
@@ -128,4 +128,5 @@ body {
 .top-right-logout button:hover {
     background-color: #b02a37;
 }
+
 
