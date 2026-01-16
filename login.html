@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Login | E-Service</title>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+<div>
+    <h2>เข้าสู่ระบบ E-Service</h2>
+
+    <div id="g_id_onload"
+         data-client_id="834874173717-sns8gn2t2ak9lt7vfpiuurkdj179ko4k.apps.googleusercontent.com"
+         data-callback="handleLogin">
+    </div>
+
+    <div class="g_id_signin"></div>
+</div>
+
+<script>
+function handleLogin(response) {
+    // เก็บ token (แบบง่าย)
+    localStorage.setItem("login", "true");
+
+    // ไปหน้าหลัก
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
