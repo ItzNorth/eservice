@@ -13,7 +13,6 @@ body {
   background-size: cover;
     background-position: center;
     height: 320px;
-    object-fit: contain;
 }
 
 .page-header-service-overlay{
@@ -36,7 +35,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 320px; /* ปรับความสูงได้ */
-    object-fit: contain;
 }
 
 .hero-overlay {
@@ -142,7 +140,7 @@ body {
     width: fit-content;
     padding: 20px 40px;
 
-    border: 5px solid red !important;
+    border: 5px solid red ;
     background: #fff;
 
     border-radius: 16px;
@@ -154,6 +152,7 @@ body {
 
     font-size: 25px;
 }
+
 
 
 
