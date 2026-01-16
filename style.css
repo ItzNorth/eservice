@@ -68,10 +68,9 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    transition: transform 0.3s;
+    object-fit: cover;   /* 👈 ตัวการ */
 }
+
 
 .service-card img:hover {
     transform: scale(1.05);
@@ -151,6 +150,7 @@ body {
 
     font-size: 25px;
 }
+
 
 
 
