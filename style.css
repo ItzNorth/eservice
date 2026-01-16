@@ -13,6 +13,7 @@ body {
   background-size: cover;
     background-position: center;
     height: 320px;
+    object-fit: contain;
 }
 
 .page-header-service-overlay{
@@ -35,6 +36,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 320px; /* ปรับความสูงได้ */
+    object-fit: contain;
 }
 
 .hero-overlay {
@@ -128,5 +130,6 @@ body {
 .top-right-logout button:hover {
     background-color: #b02a37;
 }
+
 
 
