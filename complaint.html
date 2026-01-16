@@ -14,6 +14,33 @@
     </div>
 </section>
 
+
+
+<div class="count-wrapper">
+    <div class="count-box">
+        <div class="count-title">จำนวนผู้ร้องเรียนทั้งหมด</div>
+        <div id="complaintCount" class="count-number">12 เรื่อง</div>
+    </div>
+</div>
+
+
+<script>
+fetch("https://script.google.com/macros/s/AKfycbzLxsfksXut9mXXPUuPVjyxH_E29Et7kfgXAumkyrJPSRvA2L0Vl1_jmSutKRYYL8QjIA/exec")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("complaintCount").innerText =
+      data + " เรื่อง";
+  })
+  .catch(() => {
+    document.getElementById("complaintCount").innerText =
+      "ไม่สามารถโหลดข้อมูลได้";
+  });
+</script>
+
+
+
+
+
 <!-- MENU -->
 <section class="services">
 

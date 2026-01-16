@@ -9,11 +9,10 @@ body {
     background-color: #ffffff;
 }
 .page-header-service {
-  background-image: url("bg-service.jpg");
+  background-image: url("images/bg-service.jpg");
   background-size: cover;
     background-position: center;
     height: 320px;
-    object-fit: contain;
 }
 
 .page-header-service-overlay{
@@ -32,11 +31,10 @@ body {
 
 /* รูปหย่าย */
 .hero {
-    background-image: url("bg-complaint.jpg"); /* 👈 เปลี่ยนตรงนี้ */
+    background-image: url("images/bg-complaint.jpg"); /* 👈 เปลี่ยนตรงนี้ */
     background-size: cover;
     background-position: center;
     height: 320px; /* ปรับความสูงได้ */
-    object-fit: contain;
 }
 
 .hero-overlay {
@@ -70,9 +68,9 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: contain;   /* ⭐ สำคัญ */
-    background-color: #fff; /* ช่วยให้โลโก้ดูชัด */
-    padding: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
 }
 
 .service-card img:hover {
@@ -131,6 +129,23 @@ body {
     background-color: #b02a37;
 }
 
+.count-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.count-box {
+    width: fit-content;
+    padding: 20px 40px;
 
+    border: 3px solid red;
+    border-radius: 16px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;   /* ⭐ เพิ่มตรงนี้ */
+}
